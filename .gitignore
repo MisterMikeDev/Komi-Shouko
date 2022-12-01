@@ -1,3 +1,6 @@
 node_modules/
 Komipiled/
-.env
+Ignore/
+*.toml
+*.env
+*.log
