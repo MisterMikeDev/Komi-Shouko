@@ -68,8 +68,7 @@
         "dev:ts": "ts-node src/index.ts",
         "build": "tsc",
         "lint": "eslint .",
-        "test": "jest",
-        "migrations": "prisma migrate dev --name production --preview-feature"
+        "test": "jest"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }

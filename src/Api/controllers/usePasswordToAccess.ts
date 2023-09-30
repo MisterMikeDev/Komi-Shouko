@@ -5,7 +5,7 @@ export const usePasswordToAccess = (
     res: Response,
     next: NextFunction
 ) => {
-    const { password } = req.headers;
+    const { password } = req.body;
     if (password === process.env.EXPRESS_SECRET) {
         next();
     } else {

@@ -33,7 +33,7 @@ export const SlashCommandsHandler = (Komi: Komi): void => {
                 `${__dirname}/../SlashCommands/${dir}`
             ).filter(
                 (file): boolean =>
-                    file.endsWith(".ts") &&
+                    (file.endsWith(".js") || file.endsWith(".ts")) &&
                     !file.includes(".cmd") &&
                     !file.includes(".code") &&
                     !file.includes(".modal") &&
