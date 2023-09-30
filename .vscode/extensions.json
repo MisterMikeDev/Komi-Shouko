@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "usernamehw.errorlens",
+        "github.vscode-github-actions",
+        "Prisma.prisma",
+        "redhat.vscode-yaml",
+        "pflannery.vscode-versionlens"
+    ]
+}

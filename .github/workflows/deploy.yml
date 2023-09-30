@@ -1,0 +1,26 @@
+name: Komi Shouko  CI/CD
+
+on:
+    push:
+        branches: ["master"]
+
+jobs:
+    build:
+        runs-on: self-hosted
+
+        strategy:
+            matrix:
+                node-version: [16.x]
+
+        steps:
+            - uses: actions/checkout@v3
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - run: npm install -g pnpm
+            - run: pnpm install
+            - run: pnpm lint
+            - run: pnpm test
+            - run: pnpm build
+            - run: pm2 reload 0

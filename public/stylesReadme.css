@@ -1,0 +1,39 @@
+p {
+    text-wrap: balance;
+}
+
+.komi-shouko-span {
+    font-weight: bold;
+    color: #a74ac7;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.komi {
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.badges {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 660px) {
+    .header {
+        flex-direction: column;
+    }
+    .komi {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
