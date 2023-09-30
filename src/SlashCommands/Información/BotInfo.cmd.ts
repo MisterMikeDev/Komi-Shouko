@@ -66,7 +66,7 @@ export const BotInfo = async (
                     {
                         name: windTextTemplate("Hosteada en"),
                         value: `${
-                            process.env.ENV !== "dev"
+                            process.env.ENV === "dev"
                                 ? Hosts.Local
                                 : Hosts.Oracle
                         }`,
