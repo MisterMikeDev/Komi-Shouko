@@ -1,21 +1,22 @@
 <h1 align="center" style="text-align:center; font-weight: bold;">🌸 Komi Shouko 🌸</h1>
 
-<header align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-
-<img src="public/Komi.jpg" alt="Komi Shouko" style="width: 300px; border-radius: 50%; margin-right: 20px;">
-
-<div style="width: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+<table>
+<tr>
+<td>
+    <a href="https://komishouko.me" target="_blank"><img src="public/Komi.jpg" alt="Komi Shouko" style="width: 300px; border-radius: 50%; margin-right: 20px;"></a>
+</td>
+<td>
 
 [![GitHub issues](https://img.shields.io/github/issues/MisterMikeDev/Komi-Shouko.svg)](https://github.com/NombreDeUsuario/NombreDelRepositorio/issues)
 [![Discord.js](https://img.shields.io/badge/discord.js-v14.13.0-blue.svg)](https://discord.js.org)
-[![Project Status: Development – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://img.shields.io/badge/Project%20Status-Development-yellow)](https://www.repostatus.org/#development)
+[![Project Status: Production](https://img.shields.io/badge/Project%20Status-Production-purple)](https://www.repostatus.org/#development)
 [![TypeScript](https://img.shields.io/badge/TypeScript-v5.2.2-blue.svg)](https://www.typescriptlang.org/)
 [![Deploy Komi Shouko](https://github.com/MisterMikeDev/Komi-Shouko/actions/workflows/deploy.yml/badge.svg)](https://github.com/MisterMikeDev/Komi-Shouko/actions/workflows/deploy.yml)
 
-</div>
-</header>
+</td> 
+</tr>
 
----
+<table>
 
 # ¿Que es Komi Shouko?
 
