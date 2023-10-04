@@ -1,50 +1,10 @@
-<style>
-    p {
-    text-wrap: balance;
-}
-
-.komi-shouko-span {
-    font-weight: bold;
-    color: #a74ac7;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.komi {
-    width: 300px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.badges {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 660px) {
-    .header {
-        flex-direction: column;
-    }
-    .komi {
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-}
-</style>
-
 <h1 align="center" style="text-align:center; font-weight: bold;">🌸 Komi Shouko 🌸</h1>
 
-<header align="center" class="header">
-<img src="public/Komi.jpg" alt="Komi Shouko" class="komi">
-<div class="badges">
+<header align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+
+<img src="public/Komi.jpg" alt="Komi Shouko" style="width: 300px; border-radius: 50%; margin-right: 20px;">
+
+<div style="width: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
 
 [![GitHub issues](https://img.shields.io/github/issues/MisterMikeDev/Komi-Shouko.svg)](https://github.com/NombreDeUsuario/NombreDelRepositorio/issues)
 [![Discord.js](https://img.shields.io/badge/discord.js-v14.13.0-blue.svg)](https://discord.js.org)
@@ -59,8 +19,8 @@
 
 # ¿Que es Komi Shouko?
 
-<p>
-    <span class="komi-shouko-span">Komi Shouko</span> es una bot de Discord con un propósito general que ofrece una
+<p style="text-wrap: balance;">
+    <span style="font-weight: bold; color: #a74ac7;">Komi Shouko</span> es una bot de Discord con un propósito general que ofrece una
     amplia variedad de opciones y comandos para mejorar tu experiencia en el
     servidor.
 </p>
