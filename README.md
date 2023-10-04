@@ -1,4 +1,44 @@
-<link rel="stylesheet" href="public/stylesReadme.css">
+<style>
+    p {
+    text-wrap: balance;
+}
+
+.komi-shouko-span {
+    font-weight: bold;
+    color: #a74ac7;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.komi {
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.badges {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 660px) {
+    .header {
+        flex-direction: column;
+    }
+    .komi {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
+</style>
 
 <h1 align="center" style="text-align:center; font-weight: bold;">🌸 Komi Shouko 🌸</h1>
 
